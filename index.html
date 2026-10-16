@@ -93,6 +93,15 @@
       font-size: 18px;
     }
 
+    .tm {
+      font-size: 0.55em;
+      font-weight: 500;
+      color: var(--vert-fonce);
+      margin-left: 2px;
+      vertical-align: super;
+      line-height: 0;
+    }
+
     .lang-toggle {
       display: flex;
       gap: 2px;
@@ -286,7 +295,7 @@
   <header>
     <a href="/" class="logo">
       <span class="logo-mark">O</span>
-      <span>Owoda</span>
+      <span>Owoda<sup class="tm">&trade;</sup></span>
     </a>
     <div class="lang-toggle" role="group" aria-label="Langue">
       <button type="button" class="active" data-set-lang="fr" aria-label="Français">FR</button>
@@ -352,14 +361,12 @@
 
   <footer>
     <div>
-      <span class="fr">Owoda est un produit édité sous la bannière Owoda Labs.</span>
-      <span class="en">Owoda is a product published under the Owoda Labs banner.</span>
-      <span class="footer-separator">·</span>
-      <a href="https://owodalabs.com">owodalabs.com</a>
+      <span class="fr">Owoda est l'application mobile &eacute;dit&eacute;e par <a href="https://owodalabs.com">Owoda Labs</a>.</span>
+      <span class="en">Owoda is the mobile app published by <a href="https://owodalabs.com">Owoda Labs</a>.</span>
     </div>
     <div style="margin-top: 8px;">
-      <span class="fr">Owoda&trade; &middot; Tous droits r&eacute;serv&eacute;s &middot; 2026</span>
-      <span class="en">Owoda&trade; &middot; All rights reserved &middot; 2026</span>
+      <span class="fr">Owoda &middot; Tous droits r&eacute;serv&eacute;s &middot; 2026</span>
+      <span class="en">Owoda &middot; All rights reserved &middot; 2026</span>
     </div>
   </footer>
 
