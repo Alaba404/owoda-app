@@ -161,6 +161,12 @@
       font-size: clamp(16px, 2.5vw, 18px);
       color: var(--gris-moyen);
       max-width: 480px;
+      margin-bottom: 16px;
+    }
+
+    .intro-example {
+      color: var(--vert-fonce);
+      font-weight: 500;
       margin-bottom: 48px;
     }
 
@@ -170,7 +176,22 @@
       gap: 14px;
       width: 100%;
       max-width: 320px;
+      margin-bottom: 24px;
+    }
+
+    .site-link-wrap {
       margin-bottom: 48px;
+    }
+
+    .site-link {
+      color: var(--vert-fonce);
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .site-link:hover {
+      text-decoration: underline;
     }
 
     .store-btn {
@@ -314,6 +335,11 @@
       <span class="en">The Owoda mobile app doesn't tell you to stop buying. It shows you what each expense really costs you in work time. Coming soon on iOS and Android.</span>
     </p>
 
+    <p class="intro intro-example">
+      <span class="fr">Un t&eacute;l&eacute;phone &agrave; 450&nbsp;000&nbsp;F&nbsp;CFA, c'est trois mois de travail sur un salaire local moyen.</span>
+      <span class="en">A 450,000&nbsp;CFA phone is three months of work on a typical local salary.</span>
+    </p>
+
     <div class="stores">
       <a href="#" class="store-btn" aria-disabled="true" onclick="event.preventDefault(); return false;">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -348,6 +374,11 @@
           <span class="en">Soon</span>
         </span>
       </a>
+    </div>
+
+    <div class="site-link-wrap">
+      <a href="https://owodalabs.com/" class="site-link fr">D&eacute;couvre comment &ccedil;a marche&nbsp;&rarr;</a>
+      <a href="https://owodalabs.com/index-en.html" class="site-link en">See how it works&nbsp;&rarr;</a>
     </div>
 
     <div class="contact-block">
