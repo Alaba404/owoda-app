@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentions légales · Owoda</title>
+  <meta name="description" content="Mentions légales du site owoda.app, édité par Korvedion SASU.">
+  <meta name="theme-color" content="#00A86B">
+  <link rel="canonical" href="https://owoda.app/mentions-legales.html">
+
+  <!-- Favicon inline SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2300A86B'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dominant-baseline='central' font-family='system-ui,sans-serif' font-weight='700' font-size='18' fill='white'%3EO%3C/text%3E%3C/svg%3E">
+
+  <style>
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url('fonts/inter-latin-wght-normal.woff2') format('woff2');
+    }
+
+    :root {
+      --vert: #00A86B;
+      --vert-nuit: #0D2B1A;
+      --vert-fonce: #007A4D;
+      --gris-fonce: #2A2A2A;
+      --gris-moyen: #555555;
+      --gris-clair: #E8E8E8;
+      --fond: #FAFAF7;
+      --blanc: #FFFFFF;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--fond);
+      color: var(--gris-fonce);
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 24px;
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--vert-nuit);
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+
+    .logo-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 7px;
+      background: var(--vert);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .tm {
+      font-size: 0.55em;
+      font-weight: 500;
+      color: var(--vert-fonce);
+      margin-left: 2px;
+      vertical-align: super;
+      line-height: 0;
+    }
+
+    .lang-toggle {
+      display: flex;
+      gap: 2px;
+      background: var(--blanc);
+      border: 1px solid var(--gris-clair);
+      border-radius: 999px;
+      padding: 3px;
+    }
+
+    .lang-toggle button {
+      border: 0;
+      background: transparent;
+      padding: 6px 14px;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--gris-moyen);
+      cursor: pointer;
+      border-radius: 999px;
+      transition: all 0.15s ease;
+    }
+
+    .lang-toggle button.active {
+      background: var(--vert-nuit);
+      color: white;
+    }
+
+    main {
+      flex: 1;
+      padding: 32px 24px 60px;
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    main h1 {
+      font-size: clamp(28px, 6vw, 36px);
+      font-weight: 700;
+      color: var(--vert-nuit);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 28px;
+    }
+
+    main h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--vert-nuit);
+      margin-top: 32px;
+      margin-bottom: 10px;
+    }
+
+    main p {
+      font-size: 16px;
+      color: var(--gris-moyen);
+      margin-bottom: 16px;
+      overflow-wrap: anywhere;
+    }
+
+    main a {
+      color: var(--vert-fonce);
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    main a:hover {
+      text-decoration: underline;
+    }
+
+    main .legal-updated {
+      font-size: 13px;
+      margin-top: 32px;
+      margin-bottom: 0;
+    }
+
+    footer {
+      padding: 24px;
+      font-size: 12px;
+      color: var(--gris-moyen);
+      text-align: center;
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+      border-top: 1px solid var(--gris-clair);
+      line-height: 1.7;
+    }
+
+    footer a {
+      color: var(--vert-fonce);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    [data-lang="en"] .fr { display: none; }
+    [data-lang="fr"] .en { display: none; }
+  </style>
+</head>
+<body data-lang="fr">
+
+  <header>
+    <a href="/" class="logo">
+      <span class="logo-mark">O</span>
+      <span>Owoda<sup class="tm">&reg;</sup></span>
+    </a>
+    <div class="lang-toggle" role="group" aria-label="Langue">
+      <button type="button" class="active" data-set-lang="fr" aria-label="Français">FR</button>
+      <button type="button" data-set-lang="en" aria-label="English">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <article class="fr" lang="fr">
+      <h1>Mentions légales</h1>
+
+      <p>
+        Éditeur du site owoda.app : Korvedion SASU, au capital de 1 000 €<br>
+        Siège social : 40 rue de la Tour d'Auvergne, 44200 Nantes, France<br>
+        RCS : Nantes 132 147 075<br>
+        TVA intracommunautaire : FR06132147075<br>
+        Téléphone : 02 85 52 96 45<br>
+        E-mail : <a href="mailto:apps@korvedion.com">apps@korvedion.com</a>
+      </p>
+
+      <p>Directeur de la publication : Abdalah ADJADI</p>
+
+      <p>
+        Hébergeur : GitHub, Inc.<br>
+        Adresse : 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis<br>
+        Téléphone : +1 877 448 4820<br>
+        Site : <a href="https://github.com">https://github.com</a>
+      </p>
+
+      <h2>Propriété intellectuelle</h2>
+      <p>Owoda® est une marque enregistrée, exploitée par Korvedion sous licence.</p>
+      <p>L'ensemble du contenu de ce site (textes, images, éléments graphiques, structure) est protégé par le droit d'auteur. Toute reproduction, même partielle, est interdite sans autorisation écrite préalable de Korvedion.</p>
+
+      <h2>Données personnelles</h2>
+      <p>Ce site ne comporte ni formulaire, ni cookie, ni outil de mesure d'audience. Korvedion n'y collecte aucune donnée personnelle. Comme tout hébergeur, GitHub peut enregistrer des données techniques de connexion, dont l'adresse IP, pour assurer la sécurité du service. Les messages que vous nous envoyez par e-mail servent uniquement à vous répondre.</p>
+      <p>Pour les données traitées par l'application mobile Owoda, consultez notre <a href="https://owodalabs.com/privacy.html">politique de confidentialité</a>.</p>
+
+      <h2>Droit applicable</h2>
+      <p>Ce site est régi par le droit français. En cas de litige, et à défaut de solution amiable, les tribunaux français sont compétents, sous réserve des règles protectrices dont bénéficient les consommateurs.</p>
+
+      <p class="legal-updated">Dernière mise à jour : novembre 2026</p>
+    </article>
+
+    <article class="en" lang="en">
+      <h1>Legal notice</h1>
+
+      <p>
+        Publisher of owoda.app: Korvedion SASU<br>
+        Capital: €1,000<br>
+        Address: 40 rue de la Tour d'Auvergne, 44200 Nantes, France<br>
+        RCS: Nantes 132 147 075<br>
+        VAT: FR06132147075<br>
+        Phone: +33 2 85 52 96 45<br>
+        Email: <a href="mailto:apps@korvedion.com">apps@korvedion.com</a>
+      </p>
+
+      <p>Publication director: Abdalah ADJADI</p>
+
+      <p>
+        Hosting provider: GitHub, Inc.<br>
+        Address: 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States<br>
+        Phone: +1 877 448 4820<br>
+        Website: <a href="https://github.com">https://github.com</a>
+      </p>
+
+      <h2>Intellectual property</h2>
+      <p>Owoda® is a registered trademark, used by Korvedion under license.</p>
+      <p>All content on this website (text, images, graphics, structure) is protected by copyright. Any reproduction, even partial, is prohibited without Korvedion's prior written consent.</p>
+
+      <h2>Personal data</h2>
+      <p>This website has no forms, no cookies and no audience measurement tools. Korvedion collects no personal data through it. Like any hosting provider, GitHub may record technical connection data, including IP addresses, to keep the service secure. Messages you send us by email are used only to reply to you.</p>
+      <p>For data processed by the Owoda mobile app, see our <a href="https://owodalabs.com/privacy-en.html">privacy policy</a>.</p>
+
+      <h2>Governing law</h2>
+      <p>This website is governed by French law. In the event of a dispute, and failing an amicable solution, the French courts have jurisdiction, subject to the mandatory rules that protect consumers.</p>
+
+      <p class="legal-updated">Last updated: November 2026</p>
+    </article>
+  </main>
+
+  <footer>
+    <div>
+      <span class="fr">Owoda est l'application mobile &eacute;dit&eacute;e par Korvedion.</span>
+      <span class="en">Owoda is the mobile app published by Korvedion.</span>
+    </div>
+    <div style="margin-top: 8px;">
+      <span class="fr">&copy; 2026 Owoda par Korvedion &middot; Tous droits r&eacute;serv&eacute;s &middot; <a href="mentions-legales.html">Mentions l&eacute;gales</a> &middot; <a href="https://owodalabs.com/privacy.html">Confidentialit&eacute;</a></span>
+      <span class="en">&copy; 2026 Owoda by Korvedion &middot; All rights reserved &middot; <a href="mentions-legales.html">Legal notice</a> &middot; <a href="https://owodalabs.com/privacy-en.html">Privacy</a></span>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var buttons = document.querySelectorAll('[data-set-lang]');
+      var saved = null;
+      try { saved = localStorage.getItem('owoda_lang'); } catch (e) {}
+      var browser = (navigator.language || 'fr').slice(0, 2).toLowerCase();
+      var initial = saved || (browser === 'en' ? 'en' : 'fr');
+      setLang(initial);
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          setLang(btn.getAttribute('data-set-lang'));
+        });
+      });
+
+      function setLang(lang) {
+        document.body.setAttribute('data-lang', lang);
+        document.documentElement.setAttribute('lang', lang);
+        document.title = lang === 'en' ? 'Legal notice · Owoda' : 'Mentions légales · Owoda';
+        buttons.forEach(function (b) {
+          b.classList.toggle('active', b.getAttribute('data-set-lang') === lang);
+        });
+        try { localStorage.setItem('owoda_lang', lang); } catch (e) {}
+      }
+    })();
+  </script>
+
+</body>
+</html>
